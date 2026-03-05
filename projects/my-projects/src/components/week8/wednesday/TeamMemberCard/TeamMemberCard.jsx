@@ -1,4 +1,5 @@
 
+
 function Avatar({ image, name }) {
   return <img src={image} alt={name} />;
 }
@@ -24,9 +25,9 @@ function TeamMemberCard({ image, name, role, email }) {
 
 export default function TeamSection() {
 const members = [
-  { id: 1, name: "Sheryl", role: "Product Developer", email: 'sheryl@gmail.com'},
-  { id: 2, name: "Joy", role: "Data Analyst", email: 'joy@gmail.com'},
-  { id: 3, name: "John", role: "Graphic Designer", email: 'john@gmail.com'}
+  { id: 1, image:'', name: "Sheryl", role: "Product Developer", email: 'sheryl@gmail.com'},
+  { id: 2, image:'', name: "Joy", role: "Data Analyst", email: 'joy@gmail.com'},
+  { id: 3, image:'', name: "John", role: "Graphic Designer", email: 'john@gmail.com'}
 ];
 
   return (
@@ -34,6 +35,7 @@ const members = [
       {members.map((members) => (
         <TeamMemberCard
           key={members.id}
+          image={members.image}
           name={members.name}
           role={members.role}
           email={members.email}

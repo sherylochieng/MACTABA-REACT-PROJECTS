@@ -1,5 +1,11 @@
 function Avatar({ image, name }) {
-  return <img src={image} alt={name} />;
+  return (
+  <div>
+    
+    <img src={image} alt={name} />;
+
+  </div>
+  )
 }
 
 function TeamMemberInfo({ name, role, email }) {
