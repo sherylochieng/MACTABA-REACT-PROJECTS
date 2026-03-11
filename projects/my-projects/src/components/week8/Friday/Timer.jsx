@@ -73,7 +73,7 @@ import { useState } from "react";
 
 function Timer(){
 
-    const[time, setTime] = useState(100);
+    const[time, setTime] = useState(10);
     // const[message, setMessage]=useState("");
 
     const handleCountdown = () => {
