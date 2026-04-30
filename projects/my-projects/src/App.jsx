@@ -11,6 +11,9 @@ import ProductGrid from './components/week9/wednesday-filter/ProductLIst-search/
 import SignPrevious from './components/week9/Thursday -controlled inputs/Form'
 import ProductList from './components/REVISION/PRODUCTLIST-SEARCH/Product-page/ProductList'
 
+//USEEFFECT PROJECTS
+import RandomUserCard from './components/WEEK8-USEEFFECT-PROJECTS/Random-User-Card/RandomCard'
+
 
 
 
@@ -36,6 +39,12 @@ function App() {
 
           <h1>CONTROLED INPUTS STYLING A FORM THURSDAY 12TH MARCH 2026 ASSINGMENT PROJECT</h1>
           <SignPrevious/>
+
+          <br />
+          <br />
+          <h1>WEEK 8-DAY2 USEFFECT PROJECTS</h1>
+          <h2>RANDOM CARD USER</h2>
+          <RandomUserCard/>
 
 
 
